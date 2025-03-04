@@ -12,9 +12,9 @@ python main.py CUBE
 
 <img src="assets/1700545315231.png" alt="1700545315231" style="zoom:33%;" />
 
-这是因为你还没有填写任何矩阵！你需要去`box_scene.py`中，填写完整对应的矩阵。
+需要去`box_scene.py`中，填写完整对应的矩阵。
 
-这一作业需要经过三步。第一步是填充全局变换矩阵`B1_World`、`B2_World`、`B3_World`，可以使用如下的命令只运行步骤1：
+第一步是填充全局变换矩阵`B1_World`、`B2_World`、`B3_World`，可以使用如下的命令只运行步骤1：
 
 ```powershell
 python main.py CUBE -p 1
