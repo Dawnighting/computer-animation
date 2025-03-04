@@ -30,7 +30,7 @@ python main.py CUBE -p 1
 python main.py CUBE -p 2
 ```
 
-如果你计算正确的话，你应该得到下面的图形，立方体被填充到了格子中：
+、得到下面的图形，立方体被填充到了格子中：
 
 <img src="assets/1700544947744.png" alt="1700544947744" style="zoom:33%;" />
 
@@ -58,11 +58,7 @@ python main.py FK
 python main.py FK -f ./resources/Destroy.bvh
 ```
 
-如果你直接运行，会看到这样的场景：
-
-<img src="assets/1700545707291.png" alt="1700545707291" style="zoom:33%;" />
-
-这是因为骨架信息还没有进行解算，而这正是你需要实现的！在 `FK.py`中，填写完成`update_fk`函数，如果填写正确的话，你会得到下面的结果：
+填写完成`update_fk`函数后，你会得到下面的结果：
 
 <img src="assets/1700545784480.png" alt="1700545784480" style="zoom:33%;" />
 
